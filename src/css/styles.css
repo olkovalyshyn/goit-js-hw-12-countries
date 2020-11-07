@@ -12,3 +12,7 @@ h1 {
 .container {
   text-align: center;
 }
+
+.timer {
+  display: inline-block;
+}

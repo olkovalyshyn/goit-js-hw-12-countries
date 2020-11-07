@@ -6,14 +6,15 @@
         <ul class="country-languages">Languages:
             {{#each languages}}
             <li>
-                {{this}}
+                {{this.name}}
             </li>
+            {{/each}}
         </ul>
 
     </div>
 
     <div class="country-imgFlag">
-        <img src='{{flag}}' alt="{{name}}">
+        <img src={{flag}} alt=`Flag of {{name}}` width="300">
     </div>
 
 </div>
